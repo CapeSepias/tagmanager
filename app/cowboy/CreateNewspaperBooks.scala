@@ -19,12 +19,12 @@ object CreateNewspaperBooks extends App {
   // Create newspaper books
   Await.result(
     CreateNewspaperBook(
-      internalName = "Obs: Design Magazine (nb)",
-      externalName = "Observer Design",
-      slug = "design",
-      preCalculatedPath = "theobserver/design",
+      internalName = "Gdn: Saturday Magazine (nb)",
+      externalName = "Saturday",
+      slug = "saturday",
+      preCalculatedPath = "theguardian/saturday",
 
-      publication = 8,
+      publication = 2,
       section = 196,
       capiSectionId = "lifeandstyle"
     ).process, 10.seconds)
